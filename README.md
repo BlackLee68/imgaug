@@ -284,3 +284,4 @@ seq_det = seq.to_deterministic() # call this for each batch again, NOT only once
 images_aug = seq_det.augment_images(images)
 heatmaps_aug = seq_det.augment_images(heatmaps, hooks=hooks_heatmaps)
 ```
+将之应用到所收集的数据的扩展上，在镜像之后。
